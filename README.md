@@ -38,7 +38,7 @@ Para executar a aplicação, siga estas etapas:
 
 ## Exemplo de Datasets
 
-* No diretório [Datasets](https://github.com/Spogis/Nagata/tree/master/impellers) você encontrará datasets de exemplos que podem lhe auxiliar.
+* No diretório [Datasets](https://github.com/Spogis/EasyKerasMLP/tree/master/Datasets) você encontrará datasets de exemplos que podem lhe auxiliar.
 
 ## Suporte
 
