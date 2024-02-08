@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ca19c3f-1ab9-4a17-bb62-3ede68251750" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/EasyKerasMLP.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CleanData.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Datasets/DistilationColumn.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KerasMLP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KerasMLP_OPT.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KerasOutput/temp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/KerasPredict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Dataset_No_Outliers.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Keras_MLP_Surrogate.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/base-styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/custom-styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/00 - LossEpoch.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="0ca19c3f-1ab9-4a17-bb62-3ede68251750" name="Changes" comment="Initial Commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,9 +97,36 @@
       <option name="presentableId" value="Default" />
       <updated>1707307570067</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1707422149254</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1707422149254</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1707422258668</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707422258668</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1707422405752</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1707422405752</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
