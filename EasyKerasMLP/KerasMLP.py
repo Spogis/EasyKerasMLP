@@ -1,6 +1,4 @@
-import pandas as pd
 import os
-import shutil
 from tensorflow import keras
 from keras.models import Sequential
 from keras import initializers
@@ -9,9 +7,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 import pickle
 
-from CleanData import *
+from EasyKerasMLP.CleanData import *
 
-from sklearn.metrics import mean_squared_error, r2_score
+from sklearn.metrics import r2_score
 import matplotlib as mpl
 
 mpl.use('Agg')

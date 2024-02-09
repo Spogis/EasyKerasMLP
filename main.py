@@ -1,19 +1,16 @@
 # Importações necessárias
 import base64
-import datetime
 import io
-import os
 
 import dash
 from dash.dependencies import Input, Output, State
 import dash_bootstrap_components as dbc
 from dash import dcc, html
 from dash import dash_table
-import pandas as pd
 
-from KerasMLP_OPT import *
-from KerasMLP import *
-from KerasPredict import *
+from EasyKerasMLP.KerasMLP_OPT import *
+from EasyKerasMLP.KerasMLP import *
+from EasyKerasMLP.KerasPredict import *
 
 Input_Columns = None
 Output_Columns = None
@@ -147,7 +144,7 @@ advanced_layout = html.Div([
 def create_predict_layout():
     predict_layout = html.Div([
         html.Div([
-            html.H5("Input Values (coma separeted):"),
+            html.H5("Input Values (coma separated):"),
             dcc.Textarea(id='input-variables-textarea',
                          value=Input_Columns,
                          readOnly=True,
