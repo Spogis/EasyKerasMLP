@@ -21,7 +21,6 @@ def PredictValues(input_data):
 
     return ypred
 
-Dados = [[10, 20, 15],
-         [10, 6, 10]]
+Dados = [[60, 80], [70, 98], [66, 90]]
 
 print(PredictValues(Dados))

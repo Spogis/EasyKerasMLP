@@ -36,9 +36,24 @@ Para executar a aplicação, siga estas etapas:
 
 * Após executar o comando, o Dash vai iniciar o servidor local e você poderá acessar a aplicação através do seu navegador. Normalmente, a URL será algo como `http://127.0.0.1:8050/`.
 
-## Exemplo de Datasets
+## Exemplos de Datasets
 
 * No diretório [Datasets](https://github.com/Spogis/EasyKerasMLP/tree/master/Datasets) você encontrará datasets de exemplos que podem lhe auxiliar.
+
+## Videos auxiliares:
+
+Prevendo Transferência de Calor com o Easy Keras MLP!
+
+[![Watch the video](https://img.youtube.com/vi/sKDs55pLjJ4/0.jpg)](https://youtu.be/sKDs55pLjJ4)
+
+Prevendo Calorias em Alimentos usando Inteligência Artificial!
+
+[![Watch the video](https://img.youtube.com/vi/uTCc-OzbLlc/0.jpg)](https://youtu.be/uTCc-OzbLlc)
+
+
+Usando a MLP em outros projetos! Sim, você pode usar nos seus projetos a MLP gerada aqui!
+
+[![Watch the video](https://img.youtube.com/vi/JTH4Vf5edY0/0.jpg)](https://youtu.be/JTH4Vf5edY0)
 
 ## Suporte
 
