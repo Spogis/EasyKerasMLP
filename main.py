@@ -26,6 +26,8 @@ app.title = "Easy Keras MLP Regression"
 server = app.server
 
 app.layout = html.Div([
+    html.Br(),
+    html.Br(),
     html.Div([
         html.Img(src='assets/logo.png', style={'height': '100px', 'margin-left': 'auto', 'margin-right': 'auto'}),
     ], style={'text-align': 'center', 'margin-bottom': '10px'}),

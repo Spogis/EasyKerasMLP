@@ -19,4 +19,9 @@ def PredictValues(input_data):
     ypred_Scaled = model.predict(X_valid)
     ypred = scalerY.inverse_transform(ypred_Scaled)
 
-    return ypred[0]
+    return ypred
+
+Dados = [[10, 20, 15],
+         [10, 6, 10]]
+
+print(PredictValues(Dados))
