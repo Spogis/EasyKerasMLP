@@ -32,7 +32,7 @@ Para executar a aplicação, siga estas etapas:
 
 * Navegue até o diretório do projeto onde o `main.py` está localizado.
 
-* Execute o arquivo `main.py` usando Python: python main.py
+* Execute o arquivo `main.py` usando Python: **python main.py**
 
 * Após executar o comando, o Dash vai iniciar o servidor local e você poderá acessar a aplicação através do seu navegador. Normalmente, a URL será algo como `http://127.0.0.1:8050/`.
 
