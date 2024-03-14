@@ -366,4 +366,4 @@ def update_table(selected_columns, list_of_contents, list_of_names):
 
 # Roda o app
 if __name__ == '__main__':
-    app.run_server(debug=False)
+    app.run_server(host='127.0.0.2', port=8080, debug=False)

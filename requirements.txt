@@ -11,3 +11,6 @@ tensorflow>=2.15.0
 keras>=2.15.0
 scikit-learn~=1.4.0
 dash-bootstrap-components>=1.5.0
+joblib>=1.2.0
+h5py~=3.10.0
+keras-tuner~=1.4.7
