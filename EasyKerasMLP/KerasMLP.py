@@ -103,8 +103,8 @@ def RunMLP(Dataset, Input_Columns, Output_Columns):
     history = model.fit(
         X_train, y_train,
         validation_data=(X_valid, y_valid),
-        batch_size=100,
-        epochs=1000,
+        batch_size=512,
+        epochs=2000,
         callbacks=[early_stopping],
         verbose=1,
     )

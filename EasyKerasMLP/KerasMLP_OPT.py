@@ -125,13 +125,20 @@ def RunOptimizedMLP(Dataset, Input_Columns, Output_Columns):
     )
 
     # Inicia a busca
-    tuner.search(X_train, y_train, epochs=500, validation_data=(X_valid, y_valid), callbacks=[stop_early])
+    tuner.search(X_train, y_train, epochs=500,
+                 validation_data=(X_valid, y_valid), callbacks=[stop_early],
+                 batch_size=512)
 
     # Obtém o melhor modelo
     best_model = tuner.get_best_models(num_models=1)[0]
 
     # Treinamos o melhor modelo manualmente
-    history = best_model.fit(X_train, y_train, epochs=500, validation_data=(X_valid, y_valid), callbacks=[stop_early])
+    history = best_model.fit(X_train, y_train,
+                             validation_data=(X_valid, y_valid),
+                             batch_size=512,
+                             epochs=2000,
+                             callbacks=[stop_early],
+                             verbose=1)
 
     # Obtém o melhor conjunto de hiperparâmetros
     best_hps = tuner.get_best_hyperparameters(num_trials=1)[0]
