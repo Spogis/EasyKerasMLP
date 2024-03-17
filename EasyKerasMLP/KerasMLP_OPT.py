@@ -42,8 +42,8 @@ def model_builder(hp, input_neurons=1, output_neurons=1):
     model.add(layers.InputLayer(input_shape=(input_neurons,)))
 
     # Permite ao Keras Tuner escolher entre várias funções de ativação
-    #activation_choice = hp.Choice('activation', values=['relu', 'tanh', 'sigmoid', 'softplus'])
-    activation_choice = hp.Choice('activation', values=['relu', 'tanh'])
+    activation_choice = hp.Choice('activation', values=['relu', 'tanh', 'sigmoid'])
+
 
     # Permite ao Keras Tuner decidir o número de camadas ocultas e neurônios
     for i in range(hp.Int('num_layers', 1, 3)):
