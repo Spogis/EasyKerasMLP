@@ -8,6 +8,8 @@ from functools import partial
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 import pickle
+import io
+from contextlib import redirect_stdout
 
 from EasyKerasMLP.CleanData import *
 
@@ -151,9 +153,10 @@ def RunOptimizedMLP(Dataset, Input_Columns, Output_Columns):
     best_hps_str += f" - Taxa de aprendizado do otimizador: {best_hps.get('learning_rate')}\n"
 
     # Gera o resumo da arquitetura
-    model_summary_str = []
-    best_model.summary(print_fn=lambda x: model_summary_str.append(x))
-    model_summary_str = "\n".join(model_summary_str)
+    f = io.StringIO()
+    with redirect_stdout(f):
+        best_model.summary()
+    model_summary_str = f.getvalue()
 
     # Regression Report
     ypred_Scaled = best_model.predict(X_valid)
